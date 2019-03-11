@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+body {
+    margin: auto 0 
+}
+
+.app {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.nav {
+    background-color: red;
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+}
+
+li {
+    display: inline-block;
+}  
+
+ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    margin-top: 20vh;
+    font-size: 40px;
+}
+
+.about {
+    padding-top: 20vh;
+}
+.work {
+    padding-top: 20vh;
+}
+
+.contact {
+    padding-top: 20vh;
+}
