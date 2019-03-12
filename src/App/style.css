@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth;
-    
+    font-family: 'Acme', sans-serif;
 }
 body {
-    margin: auto 0 
+    margin: auto 0 ;
+    background-color: #D8DBE2;
+    color: #373F51;
 }
 
 .app {
@@ -12,7 +14,7 @@ body {
 }
 
 div {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .nav {
@@ -21,13 +23,25 @@ div {
     position: fixed; 
     top: 0;
     width: 100%; 
+    background-color: #A9BCD0;
+}
+a {
+    color: #58A4B0;
+    text-shadow: 1px 1px black;
+}
+a:visited {
+    color: #58A4B0;
 }
 
-li {
+a:hover {
+    color: yellow;
+}
+
+.link {
     display: inline-block;
 }  
 
-ul {
+.heading-links {
     padding: 0;
     width: 100%;
     display: flex;
@@ -37,11 +51,16 @@ ul {
 
 h1 {
     text-align: center;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 main {
     margin-top: 20vh;
-    font-size: 40px;
+    font-size: 20px;
+
 }
 
 .about {
@@ -53,4 +72,9 @@ main {
 
 .contact {
     padding-top: 20vh;
+}
+
+.sub-heading {
+    text-align: center;
+    margin-top: 0;
 }
