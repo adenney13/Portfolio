@@ -18,16 +18,17 @@ div {
 }
 
 .nav {
-    background-color: red;
+    
     overflow: hidden;
     position: fixed; 
     top: 0;
     width: 100%; 
-    background-color: #A9BCD0;
+    background-color: #5D7B9B;
 }
 a {
     color: #58A4B0;
-    text-shadow: 1px 1px black;
+    text-shadow: .5px .5px black;
+    font-size: 25px;
 }
 a:visited {
     color: #58A4B0;
@@ -60,11 +61,14 @@ h1 {
 main {
     margin-top: 20vh;
     font-size: 20px;
+    text-align: center;
 
 }
 
 .about {
-    padding-top: 20vh;
+    padding-top: 18vh;
+    /* align-content: center; */
+   
 }
 .work {
     padding-top: 20vh;
@@ -77,4 +81,59 @@ main {
 .sub-heading {
     text-align: center;
     margin-top: 0;
+}
+
+.about-me {
+    display: flex;
+}
+.pbrandstatement {
+    flex: 1;
+    margin: 0vh 10vh 0vh 10vh;
+    text-align: center;
+}
+
+.tools {
+    padding-left: 0;
+    flex: 1;
+    text-align: center;
+    list-style-position: inside;
+    margin: 0vh 10vh 0vh 0vh;
+}
+
+.tools-list {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.list-split {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-list {
+    flex: 1;
+}
+
+.right-list {
+    flex: 1;
+}
+
+.work-stuff {
+    margin: 0vh 10vh 0vh 10vh;
+}
+
+.contact-stuff {
+  
+        margin: 0vh 10vh 0vh 10vh;
+   
+}
+
+.selfie {
+    max-width: 20vh;
+    max-height: 20vh;
+    margin-bottom: -15vh;
 }

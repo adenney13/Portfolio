@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { Link, Route } from 'react-router'
 import Work from './Work/Work'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import "./style.css";
+import selfie from '../Assets//profile-pic.PNG'
 
 class App extends Component {
   render() {
@@ -20,8 +20,9 @@ class App extends Component {
           </ul>
         </div>
       
-
+      
       <main>
+        <img src = {selfie} alt = 'me' className = 'selfie'/>
         <div className = 'about' id = 'about'><About /></div>
         <div className = 'work' id = 'work'><Work /></div>
         <div className = 'contact' id = 'contact'><Contact /></div>
