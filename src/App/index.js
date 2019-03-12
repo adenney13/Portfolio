@@ -3,7 +3,7 @@ import Work from './Work/Work'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import "./style.css";
-import selfie from '../Assets//profile-pic.PNG'
+import selfie from '../Assets/profile-pic.PNG'
 
 class App extends Component {
   render() {

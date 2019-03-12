@@ -90,6 +90,7 @@ main {
     flex: 1;
     margin: 0vh 10vh 0vh 10vh;
     text-align: center;
+    ;
 }
 
 .tools {
@@ -98,6 +99,7 @@ main {
     text-align: center;
     list-style-position: inside;
     margin: 0vh 10vh 0vh 0vh;
+    
 }
 
 .tools-list {
@@ -107,6 +109,8 @@ main {
 
 h2 {
     text-align: center;
+    text-shadow: 2px 2px #5D7B9B;
+    text-decoration: underline;
 }
 
 .list-split {
@@ -127,13 +131,26 @@ h2 {
 }
 
 .contact-stuff {
-  
-        margin: 0vh 10vh 0vh 10vh;
-   
+margin: 0vh 10vh 0vh 10vh;
 }
 
 .selfie {
     max-width: 20vh;
     max-height: 20vh;
     margin-bottom: -15vh;
+}
+
+.cheat-meal-pic {
+    max-width: 50vh;
+    max-height: 40vh;
+}
+
+.just-another-pic {
+    max-width: 50vh;
+    max-height: 40vh;
+}
+
+.tornados-fc-pic {
+    max-width: 50vh;
+    max-height: 40vh;
 }
